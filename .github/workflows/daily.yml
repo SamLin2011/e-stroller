@@ -32,7 +32,7 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           REPORT_RECIPIENT: ${{ secrets.REPORT_RECIPIENT }}
-        run: python src/main.py
+        run: python src/main.py --allow-fallback-summary
 
       - name: Commit report artifacts
         run: |
