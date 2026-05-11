@@ -1,0 +1,98 @@
+core_keywords:
+  - 婴童电助力推车
+  - 智能婴儿车
+  - AI stroller
+  - electric stroller
+  - robotic stroller
+  - electric baby stroller
+  - powered stroller
+  - e-assist stroller
+  - smart stroller
+  - autonomous stroller
+
+priority_products:
+  - CYBEX e-Priam
+  - CYBEX e-Gazelle S
+  - Gluxkind Rosa
+  - Glüxkind Rosa
+  - Gluxkind Ella
+  - Glüxkind Ella
+  - Bosch eStroller
+  - Bosch e-stroller
+
+brands:
+  - CYBEX
+  - Gluxkind
+  - Glüxkind
+  - Bosch
+  - Mima
+  - Anex
+  - UPPAbaby
+  - Bugaboo
+  - Nuna
+
+feature_keywords:
+  electric_assist:
+    - electric assist
+    - e-assist
+    - uphill
+    - motor
+    - powered
+    - 电助力
+    - 上坡助力
+  downhill_brake:
+    - downhill
+    - descent
+    - brake
+    - braking
+    - 下坡
+    - 制动
+  auto_parking:
+    - automatic parking
+    - auto park
+    - parking brake
+    - 自动驻车
+  auto_rocking:
+    - rocking
+    - soothe
+    - sleep mode
+    - 自动摇晃
+    - 哄睡
+  app_control:
+    - app
+    - bluetooth
+    - smartphone
+    - mobile control
+    - App 控制
+  battery:
+    - battery
+    - charging
+    - range
+    - runtime
+    - 电池
+    - 续航
+  sensors:
+    - sensor
+    - camera
+    - lidar
+    - radar
+    - ultrasonic
+    - 传感器
+    - 摄像头
+  ai_robotics:
+    - AI
+    - artificial intelligence
+    - robotic
+    - autonomous
+    - computer vision
+    - self-driving
+    - 机器人
+    - 自动驾驶
+  safety:
+    - safety
+    - collision
+    - obstacle
+    - harness
+    - alert
+    - 安全
+    - 避障

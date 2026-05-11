@@ -1,0 +1,89 @@
+request:
+  timeout_seconds: 20
+  user_agent: "Mozilla/5.0 (compatible; stroller-intelligence-bot/1.0; +https://github.com/)"
+  max_links_per_source: 8
+
+sources:
+  - name: "CYBEX e-Priam official"
+    type: "page"
+    category: "brand_official"
+    url: "https://www.cybex-online.com/en/us/strollers/e-priam"
+    always_include: true
+
+  - name: "CYBEX e-Gazelle S official"
+    type: "page"
+    category: "brand_official"
+    url: "https://www.cybex-online.com/en/us/strollers/e-gazelle-s"
+    always_include: true
+
+  - name: "Gluxkind Ella official"
+    type: "page"
+    category: "brand_official"
+    url: "https://www.gluxkind.com/ella"
+    always_include: true
+
+  - name: "Gluxkind Rosa official"
+    type: "page"
+    category: "brand_official"
+    url: "https://www.gluxkind.com/rosa"
+    always_include: true
+
+  - name: "Bosch eStroller technology search"
+    type: "rss"
+    category: "news"
+    url: "https://news.google.com/rss/search?q=Bosch%20eStroller%20OR%20Bosch%20electric%20stroller&hl=en-US&gl=US&ceid=US:en"
+
+  - name: "AI stroller news"
+    type: "rss"
+    category: "news"
+    url: "https://news.google.com/rss/search?q=%22AI%20stroller%22%20OR%20%22robotic%20stroller%22%20OR%20%22smart%20stroller%22&hl=en-US&gl=US&ceid=US:en"
+
+  - name: "Electric stroller news"
+    type: "rss"
+    category: "news"
+    url: "https://news.google.com/rss/search?q=%22electric%20stroller%22%20OR%20%22powered%20stroller%22%20OR%20%22e-assist%20stroller%22&hl=en-US&gl=US&ceid=US:en"
+
+  - name: "CYBEX electric stroller news"
+    type: "rss"
+    category: "news"
+    url: "https://news.google.com/rss/search?q=CYBEX%20%22e-Priam%22%20OR%20CYBEX%20%22e-Gazelle%20S%22&hl=en-US&gl=US&ceid=US:en"
+
+  - name: "Gluxkind news"
+    type: "rss"
+    category: "news"
+    url: "https://news.google.com/rss/search?q=Gluxkind%20Ella%20OR%20Gluxkind%20Rosa%20OR%20Gl%C3%BCxkind%20stroller&hl=en-US&gl=US&ceid=US:en"
+
+  - name: "Kickstarter electric stroller search"
+    type: "page"
+    category: "crowdfunding"
+    url: "https://www.kickstarter.com/discover/advanced?term=electric%20stroller"
+
+  - name: "Indiegogo smart stroller search"
+    type: "page"
+    category: "crowdfunding"
+    url: "https://www.indiegogo.com/explore/all?project_type=campaign&project_timing=all&sort=trending&q=smart%20stroller"
+
+  - name: "Google Patents smart stroller search"
+    type: "page"
+    category: "patent"
+    url: "https://patents.google.com/?q=(%22electric+stroller%22+OR+%22smart+stroller%22+OR+%22robotic+stroller%22)"
+
+  - name: "arXiv smart stroller and mobile robotics"
+    type: "rss"
+    category: "paper"
+    url: "https://export.arxiv.org/api/query?search_query=all:%22smart%20stroller%22+OR+all:%22baby%20stroller%22+OR+all:%22assistive%20mobile%20robot%22&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending"
+
+  - name: "CES stroller search"
+    type: "rss"
+    category: "exhibition"
+    url: "https://news.google.com/rss/search?q=CES%20%22smart%20stroller%22%20OR%20CES%20%22electric%20stroller%22&hl=en-US&gl=US&ceid=US:en"
+
+  - name: "Amazon electric stroller search"
+    type: "page"
+    category: "ecommerce"
+    url: "https://www.amazon.com/s?k=electric+stroller"
+
+  - name: "Walmart electric stroller search"
+    type: "page"
+    category: "ecommerce"
+    url: "https://www.walmart.com/search?q=electric%20stroller"
